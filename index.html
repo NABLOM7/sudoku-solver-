@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sudoku solver</title>
     <style>
-        /* --- nyari apa??? --- */
+        /* --- CSS STYLING --- */
         body {
             font-family: 'Arial', sans-serif;
             display: flex;
@@ -46,8 +46,8 @@
             background-color: #e6f7ff;
         }
 
-        /* kalau ada bug bilang tot */
-        /* cari apa??? */
+        /
+        /* nyari ap?? */
         #sudoku-grid tr:nth-child(3n) td {
             border-bottom: 3px solid #333;
         }
@@ -72,7 +72,7 @@
             border-right: 3px solid #333;
         }
 
-        /* ga ada apa apa di sini cuma css doang */
+        /* Styling untuk angka yang baru diselesaikan oleh solver */
         .solved-cell {
             color: #007bff;
             animation: fadeIn 0.5s;
@@ -128,9 +128,10 @@
 <body>
 
     <h1>Sudoku Solver 9X9</h1>
-    <h3><p>by NABLOM</p></h3>
+    
+  <h5><div id="footer">&copy; sudoku solver by NABLOM</p></h5>
     <p><strong>masukin angka-angka Sudoku lu pada ,kasi kosong untuk kotak yang kosong (kalau ga kosong gmn jawabnya jirr), lalu klik 'pecahkan'.</strong></p>
-    <p><h5>sudoku gampang jir sebenanya aku buat gara gara gabut aja,btw disain nya jelek karena terbatas banget dari github + bingung mau nambahin apa lagi</h5></p>
+    <p><h5>sudoku gampang jir sebenanya aku buat gara gara gabut aja  </h5></p>
 
     <table id="sudoku-grid"></table>
 
